@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans bg-white text-navy-700 antialiased;
+  }
+  [dir='rtl'] {
+    text-align: right;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .gold-divider {
+    background: linear-gradient(90deg, transparent, #c4922f, transparent);
+  }
+}
+
+/* Hide Bolt watermark */
+.bolt-badge,
+#bolt-badge,
+[data-bolt-badge],
+a[href*="bolt.new"],
+a[href*="stackblitz.com/bolt"] {
+  display: none !important;
+}
