@@ -506,17 +506,8 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
                   className="h-56 w-full object-cover rounded-xl border border-navy-100/60 shadow-sm"
                 />
               </div>
-            </div>
-            <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 w-[85%] rounded-xl border border-gold-200/70 bg-white/80 backdrop-blur-md p-5 shadow-2xl">
-              <Quote className="h-5 w-5 text-gold-500" />
-              <p className="mt-2 text-sm italic text-navy-700 leading-relaxed">
-                "Discretion, speed, and zero surprises. The only advisor I refer to my own family."
-              </p>
-              <div className="mt-3 text-xs text-gold-600 font-medium">
-                — Principal, Geneva Family Office
-              </div>
-            </div>
-          </div>
+            </div>   
+        </div>
         </div>
       </section>
 
