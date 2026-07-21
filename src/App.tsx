@@ -29,7 +29,7 @@ import {
 import { LANGS, t, type Lang } from './translations';
 import { properties, formatPrice } from './data';
 
-const WHATSAPP_NUMBER = '902120000000';
+const WHATSAPP_NUMBER = '905335137802';
 const WHATSAPP_MESSAGE = 'Hello, I would like to inquire about your property services in Turkiye.';
 
 function App() {
@@ -78,8 +78,8 @@ function App() {
 
   const serviceIcons = [ShieldCheck, Plane, Scale];
 
-  const whatsappLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
-
+const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
+  
   const legalFacts = [
     {
       icon: Percent,
