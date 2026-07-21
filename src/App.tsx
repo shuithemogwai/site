@@ -108,7 +108,7 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-2 text-xs text-navy-100">
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-2">
-              <Phone className="h-3.5 w-3.5 text-gold-400" /> +90 212 000 00 00
+              <Phone className="h-3.5 w-3.5 text-gold-400" /> +90 533 513 78 02
             </span>
             <span className="flex items-center gap-2">
               <Mail className="h-3.5 w-3.5 text-gold-400" /> private@realestateistanbul.co
@@ -558,7 +558,7 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
           {/* Contact details */}
           <div className="mt-12 grid sm:grid-cols-3 gap-6">
             {[
-              { icon: Phone, label: 'Phone', value: '+90 212 000 00 00' },
+              { icon: Phone, label: 'Phone', value: '+90 533 513 78 02' },
               { icon: Mail, label: 'Email', value: 'private@realestateistanbul.co' },
               { icon: MapPinned, label: 'Head Office', value: tr.footer.address },
             ].map((c, i) => (
