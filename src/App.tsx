@@ -494,7 +494,7 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
               </div>
               <div className="space-y-4 pt-8">
                 <img
-                  src="https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=600"
                   alt="Penthouse view"
                   loading="lazy"
                   className="h-40 w-full object-cover rounded-xl border border-navy-100/60 shadow-sm"
