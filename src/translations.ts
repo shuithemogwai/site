@@ -69,16 +69,16 @@ export const translations: Record<Lang, Dict> = {
       consult: 'Book a Consultation',
     },
     hero: {
-      eyebrow: 'Trusted by Global Investors Since 2008',
+      eyebrow: 'Trusted by Global Investors Since 2013',
       title: 'Your Gateway to Prestige Property in Turkiye',
       subtitle:
         'We guide discerning international buyers through every step — from citizenship-by-investment to legal ownership in Turkiye — with discretion, expertise, and unwavering integrity.',
       ctaPrimary: 'Explore Properties',
       ctaSecondary: 'Speak to an Advisor',
       stats: [
-        { value: '$2.4B+', label: 'Property Transacted' },
-        { value: '1,200+', label: 'Citizenships Secured' },
-        { value: '15+', label: 'Years in Turkiye' },
+        { value: '$50.2M+', label: 'Property Transacted' },
+        { value: '100+', label: 'Citizenships Secured' },
+        { value: '7+', label: 'Years in Turkiye' },
         { value: '98%', label: 'Client Satisfaction' },
       ],
     },
