@@ -69,7 +69,7 @@ export const translations: Record<Lang, Dict> = {
       consult: 'Book a Consultation',
     },
     hero: {
-      eyebrow: 'Trusted by Global Investors Since 2013',
+      eyebrow: 'Trusted by Global Investors Since 2019',
       title: 'Your Gateway to Prestige Property in Turkiye',
       subtitle:
         'We guide discerning international buyers through every step — from citizenship-by-investment to legal ownership in Turkiye — with discretion, expertise, and unwavering integrity.',
