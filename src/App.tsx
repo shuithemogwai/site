@@ -480,7 +480,7 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <img
-                  src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=compress&cs=tinysrgb&w=600"
                   alt="Modern interior"
                   loading="lazy"
                   className="h-56 w-full object-cover rounded-xl border border-navy-100/60 shadow-sm"
