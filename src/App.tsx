@@ -500,7 +500,7 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
                   className="h-40 w-full object-cover rounded-xl border border-navy-100/60 shadow-sm"
                 />
                 <img
-                  src="https://images.pexels.com/photos/2029698/pexels-photo-2029698.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=compress&cs=tinysrgb&w=600"
                   alt="Villa exterior"
                   loading="lazy"
                   className="h-56 w-full object-cover rounded-xl border border-navy-100/60 shadow-sm"
