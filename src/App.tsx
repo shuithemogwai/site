@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
 import {
-  Building2,
   ChevronDown,
   Globe2,
   MapPin,
@@ -16,7 +15,6 @@ import {
   MapPinned,
   Linkedin,
   Twitter,
-  Quote,
   Sparkles,
   Check,
   MessageCircle,
@@ -129,18 +127,13 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
         }`}
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-          <button onClick={() => scrollTo('home')} className="flex items-center gap-3 group">
-            <div className="flex h-11 w-11 items-center justify-center rounded-md bg-navy-700 shadow-lg">
-              <Building2 className="h-6 w-6 text-gold-400" />
-            </div>
-            <div className="text-left leading-tight">
-              <div className="font-serif text-xl font-semibold tracking-wide text-navy-800">
-                Real Estate
-              </div>
-              <div className="text-[10px] uppercase tracking-[0.25em] text-gold-600">
-                Istanbul
-              </div>
-            </div>
+          <button onClick={() => scrollTo('home')} className="flex items-center group">
+            <img
+              src="/logo_final.png"
+              alt="Projects Istanbul"
+              className="w-auto object-contain transition-opacity group-hover:opacity-90"
+              style={{ maxHeight: '45px' }}
+            />
           </button>
 
           <nav className="hidden lg:flex items-center gap-10">
@@ -572,14 +565,13 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
         <div className="mx-auto max-w-7xl px-6 py-14">
           <div className="grid gap-10 md:grid-cols-4">
             <div className="md:col-span-1">
-              <div className="flex items-center gap-3">
-                <div className="flex h-10 w-10 items-center justify-center rounded-md bg-navy-700 shadow-md">
-                  <Building2 className="h-5 w-5 text-gold-400" />
-                </div>
-                <div>
-                  <div className="font-serif text-lg font-semibold text-navy-800">Real Estate</div>
-                  <div className="text-[10px] uppercase tracking-[0.25em] text-gold-600">Istanbul</div>
-                </div>
+              <div className="mb-2">
+                <img
+                  src="/logo_final.png"
+                  alt="Projects Istanbul"
+                  className="w-auto object-contain"
+                  style={{ maxHeight: '60px' }}
+                />
               </div>
               <p className="mt-4 text-sm text-navy-500 leading-relaxed">
                 {tr.footer.tagline}
@@ -634,7 +626,7 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
 
           <div className="mt-12 pt-6 border-t border-navy-100/60 flex flex-col md:flex-row items-center justify-between gap-3">
             <div className="text-xs text-navy-400">
-              © {new Date().getFullYear()} Real Estate Istanbul. {tr.footer.rights}
+              © {new Date().getFullYear()} Projects Istanbul. {tr.footer.rights}
             </div>
             <div className="text-xs text-navy-400">
               Istanbul
