@@ -486,7 +486,7 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
                   className="h-56 w-full object-cover rounded-xl border border-navy-100/60 shadow-sm"
                 />
                 <img
-                  src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  src="https://images.pexels.com/photos/16915990/pexels-photo-16915990.jpeg?auto=compress&cs=tinysrgb&w=600"
                   alt="Coastal estate"
                   loading="lazy"
                   className="h-40 w-full object-cover rounded-xl border border-navy-100/60 shadow-sm"
