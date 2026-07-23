@@ -126,17 +126,17 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
             : 'bg-white/80 backdrop-blur-sm border-b border-navy-100/60'
         }`}
       >
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
-          <button onClick={() => scrollTo('home')} className="flex items-center group">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+          <button onClick={() => scrollTo('home')} className="flex items-center group flex-shrink-0">
             <img
               src="/logo_final.png"
               alt="Projects Istanbul"
               className="w-auto object-contain transition-opacity group-hover:opacity-90"
-              style={{ maxHeight: '72px' }}
+              style={{ maxHeight: '80px' }}
             />
           </button>
 
-          <nav className="hidden lg:flex items-center gap-10">
+          <nav className="hidden lg:flex items-center gap-10 ml-10">
             {navLinks.map((l) => (
               <button
                 key={l.id}
