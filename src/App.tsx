@@ -126,13 +126,13 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
             : 'bg-white/80 backdrop-blur-sm border-b border-navy-100/60'
         }`}
       >
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
           <button onClick={() => scrollTo('home')} className="flex items-center group">
             <img
               src="/logo_final.png"
               alt="Projects Istanbul"
               className="w-auto object-contain transition-opacity group-hover:opacity-90"
-              style={{ maxHeight: '45px' }}
+              style={{ maxHeight: '72px' }}
             />
           </button>
 
