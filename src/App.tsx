@@ -566,13 +566,12 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
           <div className="grid gap-10 md:grid-cols-4">
             <div className="md:col-span-1">
               <div className="mb-2">
-                <img
-                  src="/logo_final.png"
-                  alt="Projects Istanbul"
-                  className="w-auto object-contain"
-                  style={{ maxHeight: '60px' }}
-                />
-              </div>
+  <img
+    src="/logo_final.png"
+    alt="Projects Istanbul"
+    className="h-20 w-auto object-contain" 
+  />
+</div>
               <p className="mt-4 text-sm text-navy-500 leading-relaxed">
                 {tr.footer.tagline}
               </p>
