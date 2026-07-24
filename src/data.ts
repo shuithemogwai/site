@@ -22,7 +22,7 @@ export const properties: Property[] = [
     beds: 3,
     baths: 3,
     area: 210,
-    highlight: 'Historical shipyard rejuvenation · Rixos Hotel · Waterfront museums',
+    highlight: 'Panoramic Bosphorus Views · Historical Rejuvenation · Art & Culture Hub',
   },
   {
     id: 'p2',
