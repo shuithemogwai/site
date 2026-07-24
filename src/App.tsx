@@ -398,9 +398,9 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
                   <div className="mt-4 flex items-end justify-between">
                     <div>
                       <div className="text-[11px] uppercase tracking-wider text-navy-400">
-                        Guide Price
+                        {tr.properties.startingFrom}
                       </div>
-                      <div className="font-serif text-2xl font-semibold text-navy-800">
+                      <div className="font-serif text-2xl font-bold text-navy-900">
                         {formatPrice(p.price, tr.properties.currency)}
                       </div>
                     </div>

@@ -30,6 +30,7 @@ export type Dict = {
     badge: string;
     viewDetails: string;
     currency: string;
+    startingFrom: string;
   };
   about: {
     eyebrow: string;
@@ -113,6 +114,7 @@ export const translations: Record<Lang, Dict> = {
       badge: 'Suitable for Citizenship',
       viewDetails: 'View Details',
       currency: 'USD',
+      startingFrom: 'Starting from',
     },
     about: {
       eyebrow: 'Why Real Estate Istanbul',
@@ -202,6 +204,7 @@ export const translations: Record<Lang, Dict> = {
       badge: 'مناسبة للمواطنة',
       viewDetails: 'عرض التفاصيل',
       currency: 'دولار أمريكي',
+      startingFrom: 'يبدأ من',
     },
     about: {
       eyebrow: 'لماذا عقارات إسطنبول',
@@ -290,6 +293,7 @@ export const translations: Record<Lang, Dict> = {
       badge: 'Подходит для гражданства',
       viewDetails: 'Подробнее',
       currency: 'USD',
+      startingFrom: 'от',
     },
     about: {
       eyebrow: 'Почему Real Estate Istanbul',
