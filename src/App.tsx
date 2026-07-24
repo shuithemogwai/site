@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { ChevronDown, Globe as Globe2, MapPin, BedDouble, Bath, Maximize2, ShieldCheck, Plane, Scale, ArrowRight, Phone, Mail, MapPinned, Linkedin, Twitter, Sparkles, Check, MessageCircle, X, Percent, Landmark, Banknote, Info } from 'lucide-react';
+import { ChevronDown, Globe as Globe2, MapPin, BedDouble, Bath, Maximize2, ShieldCheck, Plane, Scale, ArrowRight, Phone, Mail, MapPinned, Instagram, Facebook, Sparkles, Check, MessageCircle, X, Percent, Landmark, Banknote, Info } from 'lucide-react';
 import { LANGS, t, type Lang } from './translations';
 import { properties, formatPrice } from './data';
 
@@ -551,10 +551,15 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
                 {tr.footer.tagline}
               </p>
               <div className="mt-5 flex gap-3">
-                {[Linkedin, Twitter].map((Icon, i) => (
+                {[
+                  { Icon: Instagram, href: 'https://www.instagram.com/projects.istanblue?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' },
+                  { Icon: Facebook, href: 'https://www.facebook.com/theprojectsistanbul' },
+                ].map(({ Icon, href }, i) => (
                   <a
                     key={i}
-                    href="#"
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex h-9 w-9 items-center justify-center rounded-md border border-navy-200/70 bg-white/60 text-navy-500 hover:border-gold-500 hover:text-gold-600 transition-colors"
                   >
                     <Icon className="h-4 w-4" />
