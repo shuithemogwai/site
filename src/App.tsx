@@ -1,29 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import {
-  ChevronDown,
-  Globe2,
-  MapPin,
-  BedDouble,
-  Bath,
-  Maximize2,
-  ShieldCheck,
-  Plane,
-  Scale,
-  ArrowRight,
-  Phone,
-  Mail,
-  MapPinned,
-  Linkedin,
-  Twitter,
-  Sparkles,
-  Check,
-  MessageCircle,
-  X,
-  Percent,
-  Landmark,
-  Banknote,
-  Info,
-} from 'lucide-react';
+import { ChevronDown, Globe as Globe2, MapPin, BedDouble, Bath, Maximize2, ShieldCheck, Plane, Scale, ArrowRight, Phone, Mail, MapPinned, Linkedin, Twitter, Sparkles, Check, MessageCircle, X, Percent, Landmark, Banknote, Info } from 'lucide-react';
 import { LANGS, t, type Lang } from './translations';
 import { properties, formatPrice } from './data';
 
@@ -126,13 +102,12 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
             : 'bg-white/80 backdrop-blur-sm border-b border-navy-100/60'
         }`}
       >
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
           <button onClick={() => scrollTo('home')} className="flex items-center group flex-shrink-0">
             <img
               src="/logo_final.png"
               alt="Projects Istanbul"
-              className="w-auto object-contain transition-opacity group-hover:opacity-90"
-              style={{ maxHeight: '80px' }}
+              className="h-20 w-auto object-contain transition-opacity group-hover:opacity-90"
             />
           </button>
 
