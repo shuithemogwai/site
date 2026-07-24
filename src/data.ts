@@ -14,9 +14,9 @@ export type Property = {
 export const properties: Property[] = [
   {
     id: 'p1',
-    title: 'Tersane Istanbul',
-    location: 'Golden Horn, Istanbul',
-    price: 2_800_000,
+    title: 'Bosphorus Waterfront Luxury Residence',
+    location: 'Historic Peninsula, Istanbul',
+    price: 2_000_000,
     image: 'https://images.pexels.com/photos/2417842/pexels-photo-2417842.jpeg?auto=compress&cs=tinysrgb&w=1200',
     program: 'Turkish Citizenship Program',
     beds: 3,
