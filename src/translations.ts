@@ -39,6 +39,13 @@ export type Dict = {
     pillars: { title: string; desc: string }[];
   };
   cta: { title: string; subtitle: string; button: string; note: string };
+  privacy: {
+    eyebrow: string;
+    title: string;
+    updated: string;
+    intro: string;
+    sections: { heading: string; body: string }[];
+  };
   footer: {
     tagline: string;
     explore: string;
@@ -133,6 +140,55 @@ export const translations: Record<Lang, Dict> = {
       button: 'Schedule a Consultation',
       note: 'Average response time: under 4 hours.',
     },
+    privacy: {
+      eyebrow: 'Legal & Data Protection',
+      title: 'Privacy Policy',
+      updated: 'Last updated: January 2025',
+      intro:
+        'Projects Istanbul ("we", "us") is committed to protecting the privacy of our clients and visitors. This policy explains what information we collect, how we use it, and the rights you have over your personal data.',
+      sections: [
+        {
+          heading: '1. Information We Collect',
+          body:
+            'We collect information you provide directly — such as your name, email, phone number, and investment preferences — when you submit an inquiry, book a consultation, or request property details. We may also receive limited technical data (IP address, browser type, pages visited) through cookies and analytics tools.',
+        },
+        {
+          heading: '2. How We Use Your Information',
+          body:
+            'Your information is used solely to respond to your inquiries, arrange consultations and property viewings, deliver advisory services, and send relevant updates you have consented to. We never sell your personal data to third parties under any circumstances.',
+        },
+        {
+          heading: '3. Data Sharing & Confidentiality',
+          body:
+            'Information is shared only with trusted partners — legal counsel, developers, and government authorities — strictly as required to deliver the services you requested. All engagements are governed by non-disclosure agreements, and partners are bound by equivalent confidentiality obligations.',
+        },
+        {
+          heading: '4. Data Retention',
+          body:
+            'We retain personal data only for as long as necessary to fulfill the purposes outlined in this policy and to meet legal, regulatory, or contractual obligations. You may request deletion of your data at any time.',
+        },
+        {
+          heading: '5. Your Rights',
+          body:
+            'You have the right to access, correct, export, or delete your personal data, and to withdraw consent for processing at any time. To exercise any of these rights, contact us at private@realestateistanbul.co.',
+        },
+        {
+          heading: '6. Cookies',
+          body:
+            'Our website uses cookies to improve navigation, analyze traffic, and remember your language preference. You can disable cookies in your browser settings, though some features may not function as intended.',
+        },
+        {
+          heading: '7. Security',
+          body:
+            'We apply industry-standard technical and organizational measures — including encrypted storage and access controls — to safeguard your data against unauthorized access, loss, or disclosure.',
+        },
+        {
+          heading: '8. Changes to This Policy',
+          body:
+            'We may update this policy periodically to reflect legal or operational changes. The "Last updated" date above indicates the most recent revision. Continued use of our services constitutes acceptance of the updated terms.',
+        },
+      ],
+    },
     footer: {
       tagline: 'Prestige property advisory for the international buyer in Turkiye.',
       explore: 'Explore',
@@ -222,6 +278,55 @@ export const translations: Record<Lang, Dict> = {
       button: 'جدولة استشارة',
       note: 'متوسط وقت الاستجابة: أقل من ٤ ساعات.',
     },
+    privacy: {
+      eyebrow: 'قانوني وحماية البيانات',
+      title: 'سياسة الخصوصية',
+      updated: 'آخر تحديث: يناير ٢٠٢٥',
+      intro:
+        'تلتزم Projects Istanbul ("نحن") بحماية خصوصية عملائنا وزوارنا. توضح هذه السياسة المعلومات التي نجمعها وكيفية استخدامها والحقوق التي تتمتع بها بشأن بياناتك الشخصية.',
+      sections: [
+        {
+          heading: '١. المعلومات التي نجمعها',
+          body:
+            'نجمع المعلومات التي تقدمها مباشرة — مثل اسمك وبريدك الإلكتروني ورقم هاتفك وتفضيلاتك الاستثمارية — عند تقديم استفسار أو حجز استشارة أو طلب تفاصيل عقار. قد نتلقى أيضاً بيانات تقنية محدودة (عنوان IP ونوع المتصفح والصفحات التي تمت زيارتها) عبر ملفات تعريف الارتباط وأدوات التحليل.',
+        },
+        {
+          heading: '٢. كيفية استخدام معلوماتك',
+          body:
+            'تُستخدم معلوماتك فقط للرد على استفساراتك وترتيب الاستشارات ومعاينات العقارات وتقديم خدمات الاستشارة وإرسال التحديثات ذات الصلة التي وافقت عليها. لا نبيع بياناتك الشخصية لأطراف ثالثة تحت أي ظرف.',
+        },
+        {
+          heading: '٣. مشاركة البيانات والسرّية',
+          body:
+            'تُشارك المعلومات فقط مع شركاء موثوقين — مستشارين قانونيين ومطورين وسلطات حكومية — وذلك بشكل صارم كما هو مطلوب لتقديم الخدمات التي طلبتها. تخضع جميع التعاملات لاتفاقيات عدم إفصاح، ويُلزم الشركاء بالتزامات سرّية مكافئة.',
+        },
+        {
+          heading: '٤. الاحتفاظ بالبيانات',
+          body:
+            'نحتفظ بالبيانات الشخصية فقط للمدة الضرورية لتحقيق الأغراض الموضحة في هذه السياسة ول تلبية الالتزامات القانونية أو التنظيمية أو التعاقدية. يمكنك طلب حذف بياناتك في أي وقت.',
+        },
+        {
+          heading: '٥. حقوقك',
+          body:
+            'يحق لك الوصول إلى بياناتك الشخصية وتصحيحها وتصديرها أو حذفها، وسحب الموافقة على المعالجة في أي وقت. لممارسة أي من هذه الحقوق، تواصل معنا على private@realestateistanbul.co.',
+        },
+        {
+          heading: '٦. ملفات تعريف الارتباط',
+          body:
+            'يستخدم موقعنا ملفات تعريف الارتباط لتحسين التنقل وتحليل حركة المرور وتذكر تفضيل لغتك. يمكنك تعطيل ملفات تعريف الارتباط في إعدادات متصفحك، رغم أن بعض الميزات قد لا تعمل كما هو مطلوب.',
+        },
+        {
+          heading: '٧. الأمان',
+          body:
+            'نطبق تدابير تقنية وتنظيمية وفق معايير الصناعة — بما في ذلك التخزين المشفّر وضوابط الوصول — لحماية بياناتك من الوصول غير المصرّح به أو الفقدان أو الإفصاح.',
+        },
+        {
+          heading: '٨. التغييرات على هذه السياسة',
+          body:
+            'قد نحدّث هذه السياسة دورياً لتعكس التغييرات القانونية أو التشغيلية. يشير تاريخ "آخر تحديث" أعلاه إلى أحدث مراجعة. يُعد الاستمرار في استخدام خدماتنا قبولاً للشروط المحدّثة.',
+        },
+      ],
+    },
     footer: {
       tagline: 'استشارة عقارات فاخرة للمشتري الدولي في تركيا.',
       explore: 'استكشف',
@@ -310,6 +415,55 @@ export const translations: Record<Lang, Dict> = {
       subtitle: 'Запишитесь на конфиденциальную консультацию с старшим советником. Без сборов и обязательств — только ясный путь вперёд.',
       button: 'Назначить консультацию',
       note: 'Среднее время ответа: менее 4 часов.',
+    },
+    privacy: {
+      eyebrow: 'Правовое и защита данных',
+      title: 'Политика конфиденциальности',
+      updated: 'Последнее обновление: январь 2025',
+      intro:
+        'Projects Istanbul («мы») обязуется защищать конфиденциальность наших клиентов и посетителей. Эта политика объясняет, какую информацию мы собираем, как её используем и какие права вы имеете в отношении своих персональных данных.',
+      sections: [
+        {
+          heading: '1. Информация, которую мы собираем',
+          body:
+            'Мы собираем информацию, предоставляемую вами напрямую — имя, электронную почту, номер телефона и инвестиционные предпочтения — при подаче запроса, записи на консультацию или запросе деталей объекта. Мы также можем получать ограниченные технические данные (IP-адрес, тип браузера, посещённые страницы) через файлы cookie и инструменты аналитики.',
+        },
+        {
+          heading: '2. Как мы используем вашу информацию',
+          body:
+            'Ваша информация используется исключительно для ответа на запросы, организации консультаций и осмотров объектов, предоставления консультационных услуг и отправки соответствующих обновлений, на которые вы дали согласие. Мы никогда не продаём ваши персональные данные третьим лицам ни при каких обстоятельствах.',
+        },
+        {
+          heading: '3. Передача данных и конфиденциальность',
+          body:
+            'Информация передаётся только проверенным партнёрам — юридическим консультантам, девелоперам и государственным органам — строго в объёме, необходимом для предоставления запрошенных вами услуг. Все взаимодействия регулируются соглашениями о неразглашении, а партнёры связаны аналогичными обязательствами по конфиденциальности.',
+        },
+        {
+          heading: '4. Хранение данных',
+          body:
+            'Мы храним персональные данные только столько, сколько необходимо для достижения целей, изложенных в этой политике, и для выполнения юридических, регуляторных или договорных обязательств. Вы можете запросить удаление своих данных в любое время.',
+        },
+        {
+          heading: '5. Ваши права',
+          body:
+            'Вы имеете право на доступ, исправление, экспорт или удаление своих персональных данных, а также на отзыв согласия на обработку в любое время. Чтобы воспользоваться этими правами, свяжитесь с нами по адресу private@realestateistanbul.co.',
+        },
+        {
+          heading: '6. Файлы cookie',
+          body:
+            'Наш сайт использует файлы cookie для улучшения навигации, анализа трафика и запоминания языковых предпочтений. Вы можете отключить cookie в настройках браузера, хотя некоторые функции могут работать некорректно.',
+        },
+        {
+          heading: '7. Безопасность',
+          body:
+            'Мы применяем технические и организационные меры, соответствующие отраслевым стандартам — включая шифрованное хранение и контроль доступа — для защиты ваших данных от несанкционированного доступа, потери или раскрытия.',
+        },
+        {
+          heading: '8. Изменения в политике',
+          body:
+            'Мы можем периодически обновлять эту политику, чтобы отразить правовые или операционные изменения. Дата «Последнее обновление» выше указывает на последнюю редакцию. Дальнейшее использование наших услуг означает согласие с обновлёнными условиями.',
+        },
+      ],
     },
     footer: {
       tagline: 'Премиальный консалтинг по недвижимости в Турции для международного покупателя.',

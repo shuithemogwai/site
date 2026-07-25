@@ -535,6 +535,48 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
         </div>
       </section>
 
+      {/* Privacy Policy */}
+      <section id="privacy-policy" className="relative py-24 md:py-32 bg-gradient-to-b from-navy-50/40 to-slate-50/80">
+        <div className="mx-auto max-w-4xl px-6">
+          <SectionHeading eyebrow={tr.privacy.eyebrow} title={tr.privacy.title} />
+          <div className="mt-6 flex items-center justify-center gap-2 text-xs text-navy-400">
+            <Info className="h-3.5 w-3.5 text-gold-500" />
+            {tr.privacy.updated}
+          </div>
+          <p className="mt-8 text-navy-600 leading-relaxed text-center max-w-2xl mx-auto">
+            {tr.privacy.intro}
+          </p>
+          <div className="mt-12 space-y-6">
+            {tr.privacy.sections.map((s, i) => (
+              <div
+                key={i}
+                className="group relative rounded-xl border border-navy-100/60 bg-white/75 backdrop-blur-sm p-7 transition-all duration-300 hover:border-gold-300 hover:bg-white/90 hover:shadow-md"
+              >
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 flex h-9 w-9 items-center justify-center rounded-lg bg-navy-700 shadow-md">
+                    <ShieldCheck className="h-4 w-4 text-gold-400" />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="font-serif text-xl font-semibold text-navy-800">
+                      {s.heading}
+                    </h3>
+                    <p className="mt-2.5 text-sm leading-relaxed text-navy-500">
+                      {s.body}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div className="mt-10 flex flex-col items-center gap-3">
+            <div className="h-px w-24 gold-divider" />
+            <p className="text-xs text-navy-400 text-center max-w-md">
+              {tr.footer.tagline}
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="border-t border-navy-100/60 bg-white/85 backdrop-blur-sm">
         <div className="mx-auto max-w-7xl px-6 py-14">
@@ -585,7 +627,7 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
                 {tr.footer.legal}
               </div>
               <ul className="mt-4 space-y-2.5 text-sm text-navy-500">
-                <li><a href="#" className="hover:text-navy-800 transition-colors">{tr.footer.links.privacy}</a></li>
+                <li><button onClick={() => scrollTo('privacy-policy')} className="hover:text-navy-800 transition-colors">{tr.footer.links.privacy}</button></li>
                 <li><a href="#" className="hover:text-navy-800 transition-colors">{tr.footer.links.terms}</a></li>
                 <li><a href="#" className="hover:text-navy-800 transition-colors">{tr.footer.links.regulatory}</a></li>
               </ul>
