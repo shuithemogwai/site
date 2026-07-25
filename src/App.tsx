@@ -595,7 +595,7 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
               <div className="mt-5 flex gap-3">
                 {[
                   { Icon: Instagram, href: 'https://www.instagram.com/projects.istanblue?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' },
-                  { Icon: Facebook, href: 'https://www.facebook.com/theprojectsistanbul' },
+                  { Icon: Facebook, href: 'https://www.facebook.com/people/Real-Estate-Service/61592498308031/' },
                 ].map(({ Icon, href }, i) => (
                   <a
                     key={i}
