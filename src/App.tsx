@@ -640,7 +640,7 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
               <ul className="mt-4 space-y-2.5 text-sm text-navy-500">
                 <li>{tr.footer.address}</li>
                 <li className="flex items-center gap-2"><Phone className="h-3.5 w-3.5 text-gold-600 flex-shrink-0" /> +90 533 513 78 02</li>
-                <li className="flex items-center gap-2"><Mail className="h-3.5 w-3.5 text-gold-600 flex-shrink-0" /> private@realestateistanbul.co</li>
+                <li className="flex items-center gap-2"><Mail className="h-3.5 w-3.5 text-gold-600 flex-shrink-0" /> turanbahsi@hotmail.com</li>
               </ul>
             </div>
           </div>
