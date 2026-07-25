@@ -85,7 +85,7 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
               <Phone className="h-3.5 w-3.5 text-gold-400" /> +90 533 513 78 02
             </span>
             <span className="flex items-center gap-2">
-              <Mail className="h-3.5 w-3.5 text-gold-400" /> private@realestateistanbul.co
+              <Mail className="h-3.5 w-3.5 text-gold-400" /> turanbahsi@hotmail.com
             </span>
           </div>
           <div className="flex items-center gap-2">
@@ -518,7 +518,7 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
           <div className="mt-12 grid sm:grid-cols-3 gap-6">
             {[
               { icon: Phone, label: 'Phone', value: '+90 533 513 78 02' },
-              { icon: Mail, label: 'Email', value: 'private@realestateistanbul.co' },
+              { icon: Mail, label: 'Email', value: 'turanbahsi@hotmail.com' },
               { icon: MapPinned, label: 'Head Office', value: tr.footer.address },
             ].map((c, i) => (
               <div key={i} className="rounded-xl border border-navy-100/60 bg-white/75 backdrop-blur-sm p-6 flex items-start gap-4 shadow-sm hover:shadow-md transition-shadow">
