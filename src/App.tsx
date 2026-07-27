@@ -85,7 +85,7 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
               <Phone className="h-3.5 w-3.5 text-gold-400" /> +90 533 513 78 02
             </span>
             <span className="flex items-center gap-2">
-              <Mail className="h-3.5 w-3.5 text-gold-400" /> turanbahsi@hotmail.com
+              <Mail className="h-3.5 w-3.5 text-gold-400" /> private@realestateistanbul.co
             </span>
           </div>
           <div className="flex items-center gap-2">
@@ -518,7 +518,7 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
           <div className="mt-12 grid sm:grid-cols-3 gap-6">
             {[
               { icon: Phone, label: 'Phone', value: '+90 533 513 78 02' },
-              { icon: Mail, label: 'Email', value: 'turanbahsi@hotmail.com' },
+              { icon: Mail, label: 'Email', value: 'private@realestateistanbul.co' },
               { icon: MapPinned, label: 'Head Office', value: tr.footer.address },
             ].map((c, i) => (
               <div key={i} className="rounded-xl border border-navy-100/60 bg-white/75 backdrop-blur-sm p-6 flex items-start gap-4 shadow-sm hover:shadow-md transition-shadow">
@@ -595,7 +595,7 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
               <div className="mt-5 flex gap-3">
                 {[
                   { Icon: Instagram, href: 'https://www.instagram.com/projects.istanblue?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' },
-                  { Icon: Facebook, href: 'https://www.facebook.com/people/Real-Estate-Service/61592498308031/' },
+                  { Icon: Facebook, href: 'https://www.facebook.com/theprojectsistanbul' },
                 ].map(({ Icon, href }, i) => (
                   <a
                     key={i}
@@ -640,7 +640,7 @@ const whatsappLink = `https://wa.me/905335137802?text=${encodeURIComponent(WHATS
               <ul className="mt-4 space-y-2.5 text-sm text-navy-500">
                 <li>{tr.footer.address}</li>
                 <li className="flex items-center gap-2"><Phone className="h-3.5 w-3.5 text-gold-600 flex-shrink-0" /> +90 533 513 78 02</li>
-                <li className="flex items-center gap-2"><Mail className="h-3.5 w-3.5 text-gold-600 flex-shrink-0" /> turanbahsi@hotmail.com</li>
+                <li className="flex items-center gap-2"><Mail className="h-3.5 w-3.5 text-gold-600 flex-shrink-0" /> private@realestateistanbul.co</li>
               </ul>
             </div>
           </div>
