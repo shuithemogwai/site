@@ -124,7 +124,7 @@ export const translations: Record<Lang, Dict> = {
       startingFrom: 'Starting from',
     },
     about: {
-      eyebrow: 'Why Real Estate Istanbul',
+      eyebrow: 'Why Lea Homes Real Estate ',
       title: 'Built on Discretion, Measured in Results',
       body: 'Real Estate Istanbul was founded on a simple conviction: foreign buyers deserve an advisor who represents them — not the seller. For over seven years we have represented private clients, family offices, and sovereign wealth principals across Turkiye.',
       pillars: [
@@ -145,7 +145,7 @@ export const translations: Record<Lang, Dict> = {
       title: 'Privacy Policy',
       updated: 'Last updated: January 2025',
       intro:
-        'Projects Istanbul ("we", "us") is committed to protecting the privacy of our clients and visitors. This policy explains what information we collect, how we use it, and the rights you have over your personal data.',
+        'Lea Homes ("we", "us") is committed to protecting the privacy of our clients and visitors. This policy explains what information we collect, how we use it, and the rights you have over your personal data.',
       sections: [
         {
           heading: '1. Information We Collect',
@@ -195,7 +195,7 @@ export const translations: Record<Lang, Dict> = {
       company: 'Company',
       legal: 'Legal',
       contact: 'Contact',
-      address: 'Levent, Buyukdere Avenue No. 120, Istanbul, Turkiye',
+      address: 'Kagithane, Ortabayir, Istanbul, Turkiye',
       rights: 'All rights reserved.',
       links: {
         services: 'Services',
@@ -283,7 +283,7 @@ export const translations: Record<Lang, Dict> = {
       title: 'سياسة الخصوصية',
       updated: 'آخر تحديث: يناير ٢٠٢٥',
       intro:
-        'تلتزم Projects Istanbul ("نحن") بحماية خصوصية عملائنا وزوارنا. توضح هذه السياسة المعلومات التي نجمعها وكيفية استخدامها والحقوق التي تتمتع بها بشأن بياناتك الشخصية.',
+        'تلتزم Lea Homes ("نحن") بحماية خصوصية عملائنا وزوارنا. توضح هذه السياسة المعلومات التي نجمعها وكيفية استخدامها والحقوق التي تتمتع بها بشأن بياناتك الشخصية.',
       sections: [
         {
           heading: '١. المعلومات التي نجمعها',
@@ -401,9 +401,9 @@ export const translations: Record<Lang, Dict> = {
       startingFrom: 'от',
     },
     about: {
-      eyebrow: 'Почему Real Estate Istanbul',
+      eyebrow: 'Почему Lea Homes Real Estate ',
       title: 'Построено на осмотрительности, измерено результатами',
-      body: 'Real Estate Istanbul основан на простом убеждении: иностранные покупатели заслуживают советника, который представляет их — а не продавца. Более пятнадцати лет мы представляем частных клиентов, семейные офисы и суверенных принципалов в Турции.',
+      body: 'Lea Homes Real Estate  основан на простом убеждении: иностранные покупатели заслуживают советника, который представляет их — а не продавца. Более пятнадцати лет мы представляем частных клиентов, семейные офисы и суверенных принципалов в Турции.',
       pillars: [
         { title: 'Независимость', desc: 'Наша верность куплена однажды — вами.' },
         { title: 'Осмотрительность', desc: 'NDA с первого контакта, доступ к закрытым объектам и контроль документооборота.' },
@@ -421,7 +421,7 @@ export const translations: Record<Lang, Dict> = {
       title: 'Политика конфиденциальности',
       updated: 'Последнее обновление: январь 2025',
       intro:
-        'Projects Istanbul («мы») обязуется защищать конфиденциальность наших клиентов и посетителей. Эта политика объясняет, какую информацию мы собираем, как её используем и какие права вы имеете в отношении своих персональных данных.',
+        'Lea Homes («мы») обязуется защищать конфиденциальность наших клиентов и посетителей. Эта политика объясняет, какую информацию мы собираем, как её используем и какие права вы имеете в отношении своих персональных данных.',
       sections: [
         {
           heading: '1. Информация, которую мы собираем',
@@ -471,7 +471,7 @@ export const translations: Record<Lang, Dict> = {
       company: 'Компания',
       legal: 'Правовое',
       contact: 'Контакты',
-      address: 'Levent, Buyukdere Avenue No. 120, Istanbul, Turkiye',
+      address: 'Kagithane, Ortabayir, Istanbul, Turkiye',
       rights: 'Все права защищены.',
       links: {
         services: 'Услуги',
