@@ -126,7 +126,7 @@ export const translations: Record<Lang, Dict> = {
     about: {
       eyebrow: 'Why Lea Homes Real Estate ',
       title: 'Built on Discretion, Measured in Results',
-      body: 'Real Estate Istanbul was founded on a simple conviction: foreign buyers deserve an advisor who represents them — not the seller. For over seven years we have represented private clients, family offices, and sovereign wealth principals across Turkiye.',
+      body: 'Lea Homes was founded on a simple conviction: foreign buyers deserve an advisor who represents them — not the seller. For over seven years we have represented private clients, family offices, and sovereign wealth principals across Turkiye.',
       pillars: [
         { title: 'Independent', desc: 'Our loyalty is purchased once — by you.' },
         { title: 'Discreet', desc: 'NDA-first engagements, off-market access, and a paper trail you control.' },
