@@ -124,9 +124,9 @@ export const translations: Record<Lang, Dict> = {
       startingFrom: 'Starting from',
     },
     about: {
-      eyebrow: 'Why Real Estate Istanbul',
+      eyebrow: 'Why LeaHomes Real Estate',
       title: 'Built on Discretion, Measured in Results',
-      body: 'Real Estate Istanbul was founded on a simple conviction: foreign buyers deserve an advisor who represents them — not the seller. For over seven years we have represented private clients, family offices, and sovereign wealth principals across Turkiye.',
+      body: 'LeaHomes Real Estate was founded on a simple conviction: foreign buyers deserve an advisor who represents them — not the seller. For over seven years we have represented private clients, family offices, and sovereign wealth principals across Turkiye.',
       pillars: [
         { title: 'Independent', desc: 'Our loyalty is purchased once — by you.' },
         { title: 'Discreet', desc: 'NDA-first engagements, off-market access, and a paper trail you control.' },
@@ -145,7 +145,7 @@ export const translations: Record<Lang, Dict> = {
       title: 'Privacy Policy',
       updated: 'Last updated: January 2025',
       intro:
-        'Projects Istanbul ("we", "us") is committed to protecting the privacy of our clients and visitors. This policy explains what information we collect, how we use it, and the rights you have over your personal data.',
+        'LeaHomes Real Estate ("we", "us") is committed to protecting the privacy of our clients and visitors. This policy explains what information we collect, how we use it, and the rights you have over your personal data.',
       sections: [
         {
           heading: '1. Information We Collect',
@@ -170,7 +170,7 @@ export const translations: Record<Lang, Dict> = {
         {
           heading: '5. Your Rights',
           body:
-            'You have the right to access, correct, export, or delete your personal data, and to withdraw consent for processing at any time. To exercise any of these rights, contact us at private@realestateistanbul.co.',
+            'You have the right to access, correct, export, or delete your personal data, and to withdraw consent for processing at any time. To exercise any of these rights, contact us at turanbahsi@hotmail.com.',
         },
         {
           heading: '6. Cookies',
@@ -283,7 +283,7 @@ export const translations: Record<Lang, Dict> = {
       title: 'سياسة الخصوصية',
       updated: 'آخر تحديث: يناير ٢٠٢٥',
       intro:
-        'تلتزم Projects Istanbul ("نحن") بحماية خصوصية عملائنا وزوارنا. توضح هذه السياسة المعلومات التي نجمعها وكيفية استخدامها والحقوق التي تتمتع بها بشأن بياناتك الشخصية.',
+        'تلتزم LeaHomes Real Estate ("نحن") بحماية خصوصية عملائنا وزوارنا. توضح هذه السياسة المعلومات التي نجمعها وكيفية استخدامها والحقوق التي تتمتع بها بشأن بياناتك الشخصية.',
       sections: [
         {
           heading: '١. المعلومات التي نجمعها',
@@ -308,7 +308,7 @@ export const translations: Record<Lang, Dict> = {
         {
           heading: '٥. حقوقك',
           body:
-            'يحق لك الوصول إلى بياناتك الشخصية وتصحيحها وتصديرها أو حذفها، وسحب الموافقة على المعالجة في أي وقت. لممارسة أي من هذه الحقوق، تواصل معنا على private@realestateistanbul.co.',
+            'يحق لك الوصول إلى بياناتك الشخصية وتصحيحها وتصديرها أو حذفها، وسحب الموافقة على المعالجة في أي وقت. لممارسة أي من هذه الحقوق، تواصل معنا على turanbahsi@hotmail.com.',
         },
         {
           heading: '٦. ملفات تعريف الارتباط',
@@ -401,9 +401,9 @@ export const translations: Record<Lang, Dict> = {
       startingFrom: 'от',
     },
     about: {
-      eyebrow: 'Почему Real Estate Istanbul',
+      eyebrow: 'Почему LeaHomes Real Estate',
       title: 'Построено на осмотрительности, измерено результатами',
-      body: 'Real Estate Istanbul основан на простом убеждении: иностранные покупатели заслуживают советника, который представляет их — а не продавца. Более пятнадцати лет мы представляем частных клиентов, семейные офисы и суверенных принципалов в Турции.',
+      body: 'LeaHomes Real Estate основан на простом убеждении: иностранные покупатели заслуживают советника, который представляет их — а не продавца. Более пятнадцати лет мы представляем частных клиентов, семейные офисы и суверенных принципалов в Турции.',
       pillars: [
         { title: 'Независимость', desc: 'Наша верность куплена однажды — вами.' },
         { title: 'Осмотрительность', desc: 'NDA с первого контакта, доступ к закрытым объектам и контроль документооборота.' },
@@ -421,7 +421,7 @@ export const translations: Record<Lang, Dict> = {
       title: 'Политика конфиденциальности',
       updated: 'Последнее обновление: январь 2025',
       intro:
-        'Projects Istanbul («мы») обязуется защищать конфиденциальность наших клиентов и посетителей. Эта политика объясняет, какую информацию мы собираем, как её используем и какие права вы имеете в отношении своих персональных данных.',
+        'LeaHomes Real Estate («мы») обязуется защищать конфиденциальность наших клиентов и посетителей. Эта политика объясняет, какую информацию мы собираем, как её используем и какие права вы имеете в отношении своих персональных данных.',
       sections: [
         {
           heading: '1. Информация, которую мы собираем',
@@ -446,7 +446,7 @@ export const translations: Record<Lang, Dict> = {
         {
           heading: '5. Ваши права',
           body:
-            'Вы имеете право на доступ, исправление, экспорт или удаление своих персональных данных, а также на отзыв согласия на обработку в любое время. Чтобы воспользоваться этими правами, свяжитесь с нами по адресу private@realestateistanbul.co.',
+            'Вы имеете право на доступ, исправление, экспорт или удаление своих персональных данных, а также на отзыв согласия на обработку в любое время. Чтобы воспользоваться этими правами, свяжитесь с нами по адресу turanbahsi@hotmail.com.',
         },
         {
           heading: '6. Файлы cookie',
