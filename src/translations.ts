@@ -195,7 +195,7 @@ export const translations: Record<Lang, Dict> = {
       company: 'Company',
       legal: 'Legal',
       contact: 'Contact',
-      address: 'Levent, Buyukdere Avenue No. 120, Istanbul, Turkiye',
+      address: 'Kagithane, Ortabayir, Istanbul, Turkiye',
       rights: 'All rights reserved.',
       links: {
         services: 'Services',
@@ -333,7 +333,7 @@ export const translations: Record<Lang, Dict> = {
       company: 'الشركة',
       legal: 'قانوني',
       contact: 'تواصل',
-      address: 'لوينت، شارع بيوكديري رقم ١٢٠، إسطنبول، تركيا',
+      address: 'Kagithane, Ortabayir, Istanbul, Turkiye',
       rights: 'جميع الحقوق محفوظة.',
       links: {
         services: 'الخدمات',
@@ -471,7 +471,7 @@ export const translations: Record<Lang, Dict> = {
       company: 'Компания',
       legal: 'Правовое',
       contact: 'Контакты',
-      address: 'Levent, Buyukdere Avenue No. 120, Istanbul, Turkiye',
+      address: 'Kagithane, Ortabayir, Istanbul, Turkiye',
       rights: 'Все права защищены.',
       links: {
         services: 'Услуги',
